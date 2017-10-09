@@ -21,8 +21,8 @@ ifeq ($(TARGET_DEVICE),cancro)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libqminvapi
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/lib/libqminvapi.so
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/lib
+LOCAL_SRC_FILES := proprietary/vendor/lib/libqminvapi.so
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
@@ -31,8 +31,8 @@ include $(BUILD_PREBUILT)
 include $(CLEAR_VARS)
 LOCAL_MODULE := libmdmdetect
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/lib/libmdmdetect.so
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/lib
+LOCAL_SRC_FILES := proprietary/vendor/lib/libmdmdetect.so
+LOCAL_MODULE_PATH := $(PRODUCT_OUT)/system/vendor/lib
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_SUFFIX := .so
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
