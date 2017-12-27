@@ -19,6 +19,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/bin/atmel_hover_tune.sh:system/vendor/bin/atmel_hover_tune.sh \
     vendor/xiaomi/cancro/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/xiaomi/cancro/proprietary/vendor/bin/charger_monitor:system/vendor/bin/charger_monitor \
+	vendor/xiaomi/cancro/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/xiaomi/cancro/proprietary/vendor/bin/fm_qsoc_patches:system/vendor/bin/fm_qsoc_patches \
     vendor/xiaomi/cancro/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/xiaomi/cancro/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
