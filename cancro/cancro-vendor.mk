@@ -24,6 +24,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/cancro/proprietary/vendor/bin/hvdcp:system/vendor/bin/hvdcp \
     vendor/xiaomi/cancro/proprietary/vendor/bin/irsc_util:system/vendor/bin/irsc_util \
     vendor/xiaomi/cancro/proprietary/vendor/bin/lowi-server:system/vendor/bin/lowi-server \
+	vendor/xiaomi/cancro/proprietary/vendor/bin/mm-pp-daemon:system/vendor/bin/mm-pp-daemon \
     vendor/xiaomi/cancro/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/xiaomi/cancro/proprietary/vendor/bin/mpdecision:system/vendor/bin/mpdecision \
     vendor/xiaomi/cancro/proprietary/vendor/bin/netmgrd:system/vendor/bin/netmgrd \
